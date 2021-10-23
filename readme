@@ -1,0 +1,34 @@
+=====================================Press ENTER to Read More=====================================
+SPECIFICATIONS & REQUIREMENTS
+
+This shell designed for Linux Environment. It will NOT work with in other operation systems.
+To execute this program properly, users must create linux server environment in local their machine.
+
+=====================================Press ENTER to Read More=====================================
+STARTUP
+
+How to open and run MyShell in Linux environment: Create executable file of MyShellLast.cpp with gcc command with
+"gcc .\MyShellLast.cpp -o myshell". After this command, executable file created under existing file directory.
+Type on command prompt myshell and press "Enter". The terminal command prompt name should change to "MyShell:".
+The shell ready to get specific commands whichs are explained under HOW IT WORKS section.
+
+=====================================Press ENTER to Read More=====================================
+HOW IT WORKS
+
+Please enter ONLY 1 command at a time. Multiple Commands return as an error.
+
+Any implementing actions commands such as ">>", ">", "<" is not necessary to enter.
+The shell automatically implementing them.
+
+Commands for Shell:
+--> cd <directory> - Change the current default directory to entered directory <directory>.
+If no directory entered by user, the shell reports current directory.
+if there is no directory, the shell prints the error  
+--> clr - Clear the screen
+--> dir <directory> - List the contents of directory entered directory (<directory>).
+--> environ - List all the environment strings.
+--> echo <comment> - Display <comment> on the display followed by a new line.
+Multiple Spaces and tabs reduucing to a single space.
+--> help - Display the user manual.  
+--> pause - Pause operation of the shell until 'Enter' is pressed.
+--> quit - Quit the shell and return back the shell directory.
